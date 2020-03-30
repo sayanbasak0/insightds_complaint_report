@@ -12,8 +12,7 @@ This repository contains some basic functionality of reading a '.csv' file to a 
 
 Constructing the required report after processing the input data with column names:
  
-Product | Year | Total | Max('company') | (Max/Total)%
-------- | ---- | ----- | -------------- | ------------
+Product | Year | Total | Max('company') | (Max/Total)
 
 *Output does not contain these column headers.*
 
