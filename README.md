@@ -12,17 +12,19 @@ This repository contains some basic functionality of reading a '.csv' file to a 
 
 Constructing the required report after processing the input data with column names:
  
-Product | Year | Total | Max('company') | (Max/Total)% 
-------- | ---- | ----- | -------------- | ------------ 
+| Product | Year | Total | Max('company') | (Max/Total)% |
+| ------- | ---- | ----- | -------------- | ------------ |
 
-<i>Output does not contain these column headers.</i>
+*Output does not contain these column headers.*
 
 ## Usage Instructions
 
 `bash run.sh <path_to_input_output_folder>` [path required]
+
 * <path_to_input_output_folder> - directory should contain 'input/complaints.csv', this will create output and store report.csv insideit
 
- #### OR
+#### OR
+
 `python3 src/consumer_complaints.py [ (optional) -i '<input_file_name_with_path>' -o '<output_file_name_with_path>' ]`
 
 * `<input_file_name_with_path>` - file name with relative path in linux style. No input defaults to './input/complaints.csv'.
